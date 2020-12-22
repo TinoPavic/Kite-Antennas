@@ -42,9 +42,9 @@ function canvasUpdate1(kite) {    // drawing on canvas
 
   s= "Loaded Kite Line (Payload Attached)"; ctx.fillText(s,1, y+=60);
   s= "    Payload Mass   m = "+kite.weight.toFixed(2)+" kg"; ctx.fillText(s,1, y+=40);
-  s= "    Payload Height h= "+ kite.height.toFixed(2)+" kg"; ctx.fillText(s,1, y+=40);
+  s= "    Payload Height h= "+ kite.height.toFixed(2)+" m"; ctx.fillText(s,1, y+=40);
   s= "    Loaded Lift    Fv= "+ kite.liftLoaded.toFixed(2)+" kg"; ctx.fillText(s,1, y+=40);
-  s= "    Loaded Elev. Angle a = "+ kite.elevLoaded.toFixed(2)+" deg"; ctx.fillText(s,1, y+=40);
+  s= "    Loaded Elev. Angle b = "+ kite.elevLoaded.toFixed(2)+" deg"; ctx.fillText(s,1, y+=40);
   s= "    Anchor Distance d = "+ kite.anchorDistance.toFixed(2)+ "m"; ctx.fillText(s,1, y+=40);
  
 }
